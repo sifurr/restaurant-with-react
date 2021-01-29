@@ -26,7 +26,9 @@ class Menu extends Component {
         let dishDetail = null;
         if (this.state.selectedDish != null) {
             dishDetail = <DishDetail dish={this.state.selectedDish} />
+
         }
+        // console.log("My dish Detail", dishDetail);
         return (
             <div className="container">
                 <div className="row">
